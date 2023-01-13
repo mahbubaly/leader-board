@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary-text {
+    color: gray;
+}
+
+.btn {
+    color: #562EFF;
+}
+
+
+
+
+/* Header file */
+.header {
+    width: 100%;
+    height: 94px;
+    background-color: #562EFF;
+
+}
+
+.header-container {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: auto;
+    padding: 26px;
+
+
+}
+
+.icon {
+    display: flex;
+}
+
+
+.icon img {
+    width: 40.42px;
+    height: 51px;
+
+}
+
+.icon-titel {
+    margin-left: 16px;
+}
+
+.manu-log-in {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+
+}
+
+.manu-log-in ul {
+    display: flex;
+    list-style: none;
+    gap: 36px;
+}
+
+.manu-log-in ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.manu-log-in img {
+    width: 51px;
+    height: 51px;
+}
+
+/*------- 
+   Main 
+-------*/
+.main {
+    background-color: #F3F1FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.main-container {
+    border-radius: 5px;
+    width: 960px;
+    height: 679px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    padding-bottom: 42px;
+}
+
+.top-players {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 30px;
+
+
+
+}
+
+.banner-titel {
+    padding-bottom: 40px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.banner-titel {
+    color: #562EFF;
+    font-size: 24px;
+
+}
+
+.player {
+    display: flex;
+    align-items: center;
+
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
+}
+
+hr {
+    width: 907px;
+    height: 0px;
+    margin: auto;
+
+}
+
+/* Blogs */
+.top-blogs {
+    padding: 30px;
+}
+
+.blogs-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+
+
+}
+
+
+.blogs {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 16px;
+
+
+}
+
+.blogs img {
+    width: 177px;
+    height: 117px;
+}
+
+/* Latest  cource */
+.lates-course {
+    width: 960px;
+    height: 362px;
+    margin-bottom: 30px;
+
+}
+
+.coures {
+    padding: 30px;
+}
+
+.course-titel {
+    color: #562EFF;
+    margin-bottom: 11px;
+}
+
+.coure-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course-details {
+    padding: 30px;
+    width: 220px;
+    box-shadow: 5px 5px 5px #F9F9F9;
+
+
+}
+
+.course-banner img {
+    margin-bottom: 5px;
+    width: 224px;
+    height: 104px
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+}
+.course-details h3{
+    font-size: 20px;
+}
+.course-details p{
+    
+}
+.course-author {
+    color: #ED6B4F;
+    margin-bottom: 5px;
+}
+
+.fa-star.golden {
+    color: #FFC014;
+}
+
+.fa-star.gray {
+    color: #AEAEAE;
+}
+.course-duration{
+    align-items: center;
+    text-align: center;
+    width: 50px;
+    border-radius: 5px;
+    background-color: #ED6B4F;
+}
+
+/* Footer */
+
+.full-footer {
+   
+    width: 100%;
+    background-image: url(/asset/image/footer-bg.png), linear-gradient(#562EFF, rgba(164, 157, 157, 0.9));
+    background-blend-mode: overlay;
+    color: rgb(0, 0, 0);
+    
+
+
+}
+
+.footer-1 {
+    padding: 50px;
+    padding-top: 100px;
+    width: 960px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 60px;
+    text-align: center;
+}
+.usefull-links {
+    padding: 5px;
+    margin-left: 50px;
+    text-align: left;
+    line-height: 25px;
+
+}
+
+.suppots {
+    width: 100%;
+
+    padding: 5px;
+    margin-left: 50px;
+    text-align: left;
+    line-height: 25px;
+
+}
+
+.Contact-information {
+    width: 100%;
+    padding: 5px;
+    margin-left: 50px;
+    text-align: left;
+    line-height: 25px;
+
+}
+
+hr {
+
+    width: 960px;
+    margin: auto;
+
+}
+
+.use-titel {
+    padding-bottom: 50px;
+}
+
+.footer-2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 576px) {
+
+    .banner-content {
+        width: 100%;
+        flex-direction: column;
+        position: absolute;
+    }
+
+    .manu-container {
+
+        flex-direction: column;
+        position: absolute;
+
+
+    }
+
+    .full-banner-container {
+        flex-direction: column;
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5));
+        background-blend-mode: overlay;
+
+    }
+
+    .banner-titel {
+        font-size: 50px;
+
+    }
+
+    .btn-primary {
+        padding: 5px;
+        font-size: 20px;
+
+    }
