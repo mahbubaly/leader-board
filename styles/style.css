@@ -208,13 +208,12 @@ hr {
 .course-info {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 .course-details h3{
     font-size: 20px;
 }
-.course-details p{
-    
-}
+
 .course-author {
     color: #ED6B4F;
     margin-bottom: 5px;
@@ -232,7 +231,10 @@ hr {
     text-align: center;
     width: 50px;
     border-radius: 5px;
-    background-color: #ED6B4F;
+    background-color: #FFE4E8;
+    color: #FF4A60;
+    margin: auto;
+    align-items: center;
 }
 
 /* Footer */
@@ -240,7 +242,7 @@ hr {
 .full-footer {
    
     width: 100%;
-    background-image: url(/asset/image/footer-bg.png), linear-gradient(#562EFF, rgba(164, 157, 157, 0.9));
+    background-image:linear-gradient(#562EFF, rgba(164, 157, 157, 0.9));
     background-blend-mode: overlay;
     color: rgb(0, 0, 0);
     
